@@ -1,2 +1,6 @@
 # knowlage-projects
-# npm create vite@latest .
+```
+npm create vite@latest .
+npm install @reduxjs/toolkit
+npm install redux react-redux
+```
