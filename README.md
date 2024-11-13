@@ -4,15 +4,6 @@ npm create vite@latest .
 npm install @reduxjs/toolkit
 npm install redux react-redux
 npm i react-router-dom
-
-git reset --hard HEAD // change to last commit on Branch
-
-git flow feature start <feature-name>
-git checkout develop
-git merge feature/<feature-name>
-git branch -d feature/<feature-name>
-git flow feature finish <feature-name>
-
 ```
 ```
 git reset --hard HEAD // change to last commit on Branch
