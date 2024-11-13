@@ -12,7 +12,7 @@ git flow feature start <feature-name>
 git checkout develop
 git merge feature/<feature-name>
 git branch -d feature/<feature-name>
-git flow feature finish <feature-name>
+git flow feature finish <-name>
 
 ```
 ```
