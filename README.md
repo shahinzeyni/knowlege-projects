@@ -16,6 +16,7 @@ git flow feature finish <-name>
 
 ```
 ```
+Convert fa digit to en digit 
 const toEnglishDigits = (persianStr) => {
   return persianStr.replace(/[۰-۹]/g, (digit) =>
     String.fromCharCode(digit.charCodeAt(0) - 1728)
