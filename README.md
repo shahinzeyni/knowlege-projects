@@ -8,6 +8,8 @@ npm i react-router-dom
 ```
 git reset --hard HEAD // change to last commit on Branch
 git rm --cached src/component/templates/p-admin/Classes/Classes.tsx
+git rm --cached -r .
+
 
 git flow feature start <feature-name>
 git checkout develop
