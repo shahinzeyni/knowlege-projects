@@ -12,11 +12,16 @@ git rm --cached -r .
 
 
 git flow feature start <feature-name>
+git add . //<feature-name>
+git commit
 git checkout develop
-git merge feature/<feature-name>
+git pull origin develop
+git checkout  <feature-name>
+git merge develop
+git push origin <feature-name>
+
 git branch -d feature/<feature-name>
 git flow feature finish <-name>
-
 ```
 ```
 Convert fa digit to en digit 
