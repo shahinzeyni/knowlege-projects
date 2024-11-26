@@ -1,0 +1,124 @@
+.container {
+  width: 100% !important;
+
+  .iconContainer {
+    padding: 10px;
+    background-color: white;
+    border-radius: var(--mantine-radius-xs);
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+
+    &:hover {
+      border: 1px solid var(--Gray-Gray-300, #CDD5DF);
+      background: var(--Gray-Gray-200, #EEF2F6);
+    }
+  }
+}
+
+.mainContainer {
+  justify-content: center;
+  position: fixed;
+  left: -990px;
+  /* left: 0; */
+  top: 0;
+  z-index: 1000;
+}
+.containerCard {
+  background-color: white;
+  width: 360px;
+  height: 677px;
+  color: black;
+  justify-content: center;
+}
+
+.containerContent {
+  padding: var(--mantine-spacing-md) var(--mantine-spacing-md);
+  width: 100%;
+}
+.firstText {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: var(--mantine-color-gray-9);
+}
+.secondText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: var(--mantine-color-gray-9);
+}
+.thirdText {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: var(--mantine-color-gray-9);
+}
+.head {
+  width: 95%;
+}
+.body {
+  width: 100%;
+}
+.bodyItem {
+  width: 100%;
+}
+.line1 {
+  width: 100%;
+  height: 0.5px;
+  gap: 8px;
+  background-color: var(--mantine-color-gray-9);
+  margin: 16px 0;
+}
+.forthText {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: var(--mantine-color-gray-9);
+}
+.bodyItem_text_left {
+  color: var(--mantine-color-gray-7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.bodyItem_text_right {
+  color: var(--mantine-color-gray-9);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.bodyItem_headText_top {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: var(--mantine-color-gray-7);
+}
+.bodyItem_headText_bootom {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: right;
+  color: var(--mantine-color-gray-9);
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.btn_content {
+  width: 100%;
+  height: 64px;
+  justify-content: center;
+  padding: 16px 10px;
+  align-items: center;
+  background-color: var(--mantine-color-gray-9);
+}
