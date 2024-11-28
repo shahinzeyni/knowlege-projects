@@ -21,6 +21,7 @@ git merge develop
 git push origin feature/<feature-name>
 
 git branch -d feature/<feature-name>
+git branch -D feature/<feature-name>    //force
 git flow feature finish <-name>
 ```
 ```
