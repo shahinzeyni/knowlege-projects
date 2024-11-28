@@ -36,3 +36,7 @@ const englishDate = toEnglishDigits(gregorianDate);
 
 console.log(englishDate); // [OutPut: "2024-11-07"
 ```
+
+```
+import { jsPDF as JsPDF } from 'jspdf';
+```
