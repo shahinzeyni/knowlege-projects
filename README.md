@@ -18,7 +18,7 @@ git checkout develop
 git pull origin develop
 git checkout  <feature-name>
 git merge develop
-git push origin <feature-name>
+git push origin feature/<feature-name>
 
 git branch -d feature/<feature-name>
 git flow feature finish <-name>
