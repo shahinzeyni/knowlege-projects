@@ -1,4 +1,4 @@
-# knowlage-projects
+# knowlege-projects
 ```
 npm create vite@latest .
 npm install @reduxjs/toolkit
