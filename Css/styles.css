@@ -1,1 +1,5 @@
 
+.decorated-text {
+  text-decoration: underline; /* زیرخط */
+  text-underline-offset: 4px;
+}
