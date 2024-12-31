@@ -24,7 +24,7 @@ const BookingDetailTools: FC<BookingDetailToolsProps> = ({ data }) => {
   const printRef = useRef<HTMLDivElement>(null);
   const pdfContentRef = useRef<HTMLDivElement>(null);
 
-  const handlePrint = () => {
+ const handlePrint = () => {
     const content = printRef.current;
     if (content) {
       const printWindow = window.open('', '_blank');
@@ -33,7 +33,9 @@ const BookingDetailTools: FC<BookingDetailToolsProps> = ({ data }) => {
         const printStyles = Array.from(styles_Html)
           .map((style) => style.outerHTML)
           .join('');
-        printWindow.document.write(printStyles);
+        printWindow.document.write(
+          `<body style=" display: flex; justify-content: center; padding-inline: 20px; background-color: white;">${printStyles}</body>`
+        );
         printWindow.document.write(content.outerHTML);
         printWindow.document.close();
         printWindow.print();
