@@ -122,3 +122,122 @@
   align-items: center;
   background-color: var(--mantine-color-gray-9);
 }
+------------------------------
+
+
+@media print {
+
+
+
+    .print_container {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        background-color: white !important;
+    }
+}
+
+
+.print_container {
+    background-color: white !important;
+    height: 100%;
+    .registrationTitle {
+        color: var(--mantine-color-gray-6);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .registrationDate {
+        color: var(--mantine-color-gray-9);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .paymentRow {
+        justify-content: space-between;
+        align-items: center;
+
+        & p {
+            color: var(--mantine-color-gray-9);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+
+    .paymentRow {
+        & p {
+            color: var(--mantine-color-gray-9);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+
+    .discountRow {
+        justify-content: space-between;
+        align-items: center;
+
+        & p {
+            color: var(--mantine-color-gray-5);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+
+    .totalRow {
+        padding: var(--mantine-spacing-sm) var(--mantine-spacing-sm);
+        border-radius: var(--mantine-radius-xs);
+        background: var(--mantine-color-gray-2);
+        margin-top: var(--mantine-spacing-sm);
+        margin-bottom: var(--mantine-spacing-md);
+
+        & p {
+            color: var(--mantine-color-gray-8);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+
+    .paymentInfo_title {
+        color: var(--mantine-color-gray-6);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .paymentInfo_desc {
+        gap: 4px;
+
+        & p {
+
+            color: var(--mantine-color-black);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+
+    .paymentInfo_descPaid {
+        color: var(--mantine-color-black);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .paymentInfo {
+        justify-content: space-between;
+    }
+}
