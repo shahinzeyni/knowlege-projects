@@ -3,7 +3,7 @@
 ```
 
 if (true) {
-  return <div>Hi</div>; // این غیرقابل‌قبول توی JSX
+  return <div>Hi</div>;
 }
 ```
 
